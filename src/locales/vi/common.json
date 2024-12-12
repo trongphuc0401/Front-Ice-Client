@@ -1,0 +1,328 @@
+{
+  "Layout": {
+    "Header": {
+      "SearchBar": {},
+      "UserProfile": {
+        "avatar": "ảnh đại diện",
+        "userName": "họ tên"
+      }
+    },
+    "Sidebar": {},
+    "Main": {}
+  },
+  "ToastMessage": {
+    "Auth": {
+      "Login": {
+        "error": "Đăng nhập không thành công",
+        "pending": "Đang thực hiện đăng nhập",
+        "success": "Đăng nhập thành công"
+      },
+      "Register": {
+        "error": "Đăng kí thất bại",
+        "pending": "Đang thực hiện đăng kí",
+        "success": "Đăng kí thành công"
+      },
+      "ForgotPassword": {
+        "error": "Gmail không chính xác",
+        "pending": "Đăng thực hiện kiểm tra",
+        "success": "Kiểm tra gmail thành công"
+      },
+      "OTP": {
+        "error": "Xác thực OTP thất bại",
+        "pending": "Đang thực hiện xác thực OTP",
+        "success": "Xác thực OTP thành công"
+      },
+      "ResetPassword": {
+        "error": "Đổi mới mật khẩu thất bại",
+        "success": "Đổi mới mật khẩu thành công",
+        "pending": "Đang thực hiện thay đổi mật khẩu"
+      },
+      "Logout": {
+        "Success": "Đăng xuất tài khoản thành công",
+        "Error": "Đăng xuất tài khoản thất bại",
+        "Pending": "Đang thực hiện đăng xuất tài khoản"
+      },
+      "ResendOtp": {
+        "Success": "Gửi lại mã xác nhận OTP thành công",
+        "Error": "Gửi lại mã xác nhận OTP thất bại",
+        "Pending": "Đang thực hiện gửi lại mã xác nhận OTP"
+      }
+    },
+    "Challenger": {
+      "profile": {
+        "error": "Xác thực thông tin tài khoản không thành công"
+      },
+      "Join": {
+        "Success": "Tham gia thử thách thành công",
+        "Error": "Tham gia thử thách thất bại"
+      },
+      "Download": {
+        "Assest": {
+          "Success": "Tài tài liệu thành công",
+          "Error": "Tải tài liệu thất bại"
+        },
+        "Figma": {
+          "Success": "Tài tài liệu thiết kế Figma thành công",
+          "Error": "Tài tài liệu thiết kế Figma thất bại"
+        }
+      }
+    },
+    "Challenge": {
+      "Download": {
+        "Figma": {
+          "Pending": "Đang tiến hành tài tài liệu thiết kế Figma"
+        },
+        "Assets": {
+          "Pending": "Đang tiến hành tải tài liệu"
+        }
+      }
+    },
+    "Solution": {
+      "Submit": {
+        "Success": "Đăng tải giải pháp thành công",
+        "Error": "Đăng tải giải pháp thất bại",
+        "Pending": "Đang thực hiện đăng tải giải pháp"
+      },
+      "Like": {
+        "Success": "Yêu thích giải pháp thành công ",
+        "Error": "Yêu thích giải pháp thất bại"
+      },
+      "Dislike": {
+        "Success": "Không thích giải pháp thành công",
+        "Error": "Không thích giái pháp thất bại"
+      },
+      "UnInteraction": {
+        "Dislike": {
+          "Error": "Hủy bỏ không yêu thích thất bại"
+        },
+        "Like": {
+          "Error": "Hủy bỏ yêu thích không thành công"
+        }
+      }
+    },
+    "Task": {
+      "Join": {
+        "Success": "Tham gia nhiệm vụ thành công",
+        "Error": "Tham gia nhiệm vụ thất bại",
+        "Peding": "Đang thực hiện tham gia nhiệm vụ"
+      }
+    },
+    "Comment": {
+      "Remove": {
+        "Success": "Xóa bình luận thành công",
+        "Error": "Xóa bình luận thất bại"
+      }
+    }
+  },
+  "Validation": {
+    "Field": {
+      "Password": {
+        "MinLength": "Mật khẩu có độ dài tối thiểu {{length}}",
+        "MaxLength": "Mật khẩu có độ dài tối đa {{length}}",
+        "Require": "Mật khẩu không được bỏ trống"
+      },
+      "ConfirmPassword": {
+        "Require": "Mật khẩu xác nhận không được để trống",
+        "MinLength": "Mật khẩu xác nhận có độ dài tối thiểu là {{length}}",
+        "MaxLength": "Mật khẩu xác thực có độ dài tối đa là {{length}}"
+      },
+      "PasswordConfirm": {
+        "Match": "Mật khẩu xác nhận không trùng khớp"
+      },
+      "FirstName": {
+        "Require": "Tên không được để trống"
+      },
+      "LastName": {
+        "Require": "Họ không được bỏ trống"
+      },
+      "Email": {
+        "Require": "Email không được bỏ trống",
+        "Pattern": "Email không đúng định dạng"
+      },
+      "Otp": {
+        "Require": "Mã OTP không được bỏ trống"
+      },
+      "Nickname": {
+        "Require": "Biệt danh không được bỏ trống"
+      },
+      "Phone": {
+        "Require": "Số điện thoại không được để trống",
+        "Pattern": "Số điện thoại không hợp lệ"
+      }
+    }
+  },
+  "Field": {
+    "NewPassword": "Mật khẩu mới",
+    "ConfirmPassword": "Xác nhận mật khẩu",
+    "Email": "Email",
+    "FirstName": "Tên",
+    "LastName": "Họ",
+    "Password": "Mật khẩu",
+    "Nickname": "Biệt Danh",
+    "Phone": "Số điện thoại",
+    "PrideOf": "Bạn tự hào nhất về điều gì, và bạn sẽ làm gì khác nhau vào lần sau?",
+    "ChallengeOvercome": "Bạn đã gặp phải những thách thức nào, và bạn đã vượt qua chúng như thế nào?",
+    "HelpWith": "Những lĩnh vực cụ thể nào trong dự án của bạn mà bạn muốn giúp đỡ?"
+  },
+  "Button": {
+    "ResetPassword": "Đổi mật khẩu",
+    "ForgotPassword": "Quên mật khẩu",
+    "Login": "Đăng nhập",
+    "Register": "Đăng kí",
+    "VerifyOtp": "Xác thực mã OTP",
+    "Authentication": {
+      "BackPrevious": "Quay về"
+    },
+    "ViewMore": {
+      "Challenges": "Xem thử thách",
+      "Default": "Xem thêm"
+    },
+    "LoginNow": "Đăng nhập ngay",
+    "Submit": {
+      "Solution": "Đăng tải giải pháp của bạn"
+    },
+    "UnlockPremium": "Nâng cấp tài khoản Premium",
+    "Challenges": "Thử thách",
+    "Solutions": "Giải Pháp",
+    "BackToHomePage": "Trở về trang chủ",
+    "GoToTasks": "Xem các nhiệm vụ"
+  },
+  "Checkbox": {
+    "RememberAccount": "Ghi nhớ tài khoản"
+  },
+  "Upload file": "Tải lên tập tin",
+  "Enter your portfolio": "Nhập portfolio của bạn",
+  "Settings Profile": "Cài đặt Hồ sơ",
+  "Banner": "Ảnh Bìa",
+  "Avatar": "Ảnh Đại Diện",
+  "Enter your link Github account": "Nhập vào đường dẫn Github của bạn",
+  "Enter your link Google account": "Nhập vào đường dẫn Google của bạn",
+  "Enter your link Portfolio account": "nhập vào đường dẫn portfolio của bạn",
+  "Personal Information": "Thông tin cá nhân",
+  "First Name": "Họ",
+  "Last Name": "Tên",
+  "Date of Birth": "Ngày tháng năm sinh",
+  "Gender": "giới tính",
+  "Contact": "Liên hệ",
+  "Social": "Mạng xã hội",
+  "Enter your link Codepen": "Nhập vào liên kết tài khoản Codepen của bạn",
+  "Enter your link Gitlab account": "Nhập vào liên kết tài khoản Gitlab của bạn",
+  "Enter your link Stack Overflow account": "Nhập vào đường dẫn Stack Overflow của bạn",
+  "Save Settings": "Lưu thay đổi",
+  "Preview": "Xem trước",
+  "Enter your first name": "Nhập vào Họ của bạn",
+  "Enter your last name": "Nhập vào tên của bạn",
+  "Select your gender": "Chọn giới tính",
+  "Male": "Nam",
+  "Female": "Nữ",
+  "Other": "Khác",
+  "Language": {
+    "Vietnamese": "Tiếng Việt",
+    "English": "Tiếng Anh",
+    "Country": "Việt Nam"
+  },
+  "ChangeLanguage": {
+    "success": "Chuyển ngôn ngữ {{language}} thành công"
+  },
+  "Setting": "Cài đặt",
+  "Profile": "Trang cá nhân",
+  "Logout": "Đăng xuất",
+  "Point": "Điểm ",
+  "Empty": {
+    "DontJoinedChallenge": "Bạn chưa tham gia thử thách nào",
+    "DontSubmittedChallenge": "Bạn chưa có bài giải nào",
+    "IncompleteChallenge": "Bạn không có thử thách nào chưa hoàn thành",
+    "Solution": "Bạn phải thực hiện thử thách để thấy các giáp pháp của người khác",
+    "SolutionsOfChallenge": "Chưa có giải pháp nào cho thử thách này",
+    "ChallengeSystem": "Không có thử thách nào ",
+    "SolutionTask": {
+      "Title": "Bạn chưa có giải pháp nào cho nhiệm vụ",
+      "Text": "Tham gia nhiệm vụ và nộp solution"
+    },
+    "Comment": "Chưa có ai bình luận về giải pháp này"
+  },
+  "Authentication": {
+    "Login": "Bạn chưa đăng nhập tài khoản"
+  },
+  "Section": {
+    "Overview": "Tổng quan",
+    "IncompleteChallenge": "Thử thách chưa hoàn thành",
+    "MySolution": "Giải pháp của tôi",
+    "MissionOfTasker": "Thử thách của nhà tuyển dụng",
+    "MissionOfSystem": "Thử thách của hệ thống",
+    "MySolutionChallengesSystem": "Giải pháp cho thử thách hệ thống",
+    "MySolutionTask": "Giải pháp cho nhiệm vụ"
+  },
+  "ChallengeOverview": {
+    "Error": {
+      "EnoughPoint": "Bạn không đủ điểm yêu cầu để có thể tham gia challenge này",
+      "Authentication": "Phải đăng nhập thì mới có thể tham gia thử thách",
+      "ChallengeType": "Thử thách này chỉ dành riêng cho tài khoản premium"
+    }
+  },
+  "Placeholder": {
+    "Comment": "Hãy nhập nội dung bình luận của bạn",
+    "Email": "Nhập địa chỉ email của bạn",
+    "Password": "Nhập mật khẩu của bạn",
+    "PasswordConfirmation": "Nhập mật khẩu xác nhận của bạn"
+  },
+  "Page": {
+    "Tasks": {
+      "Title": "Danh sách thử thách của nhà tuyển dụng"
+    },
+    "Challenges": {
+      "Title": "Danh sách thử thách hệ thống"
+    },
+    "SubmitSolution": {
+      "Title": "Nộp giải pháp",
+      "Form": {
+        "Title": "Gửi Thông tin giải pháp"
+      }
+    },
+    "Home": {
+      "Title": "Trang chủ"
+    },
+    "Solutions": {
+      "Title": "Danh sách giải pháp"
+    },
+    "MySolution": {
+      "Title": "Danh sách giải pháp của tôi"
+    },
+    "Unauthorized": {
+      "ErrorText": "Bạn phải đang nhập để có thể truy cập",
+      "title": "Trang này không có sẵn công khai",
+      "Description": "Để có thể truy cập bạn phải thực hiện đăng nhập đầu tiên"
+    }
+  },
+  "Account": {
+    "Update": {
+      "Premium": {
+        "Success": "Tài khoản đã được nâng cấp Premium"
+      }
+    }
+  },
+  "ForgotPassword": "Quên mật khẩu",
+  "Label": {
+    "ExpiredTime": "Hết hạn vào"
+  },
+  "ReplyComment": "Trả lời bình luận",
+  "Comment": {
+    "Success": "Bình luận thành công",
+    "Error": "Trả lời bình luận thất bại"
+  },
+  "Remove": {
+    "Comment": "Xóa"
+  },
+  "Edit": {
+    "Comment": "Chỉnh sửa"
+  },
+  "CommentReply": {
+    "Success": "Trả lời bình luận thành công"
+  },
+  "RepliesComment": {
+    "Notfound": "Không tìm thấy các phản hồi bình luận"
+  },
+  "ViewMore": {
+    "Comments": "Xem thêm phản hồi bình luận"
+  }
+}

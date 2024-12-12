@@ -1,0 +1,32 @@
+@use '../../../styles/scss/utils' as *;
+
+.tag__challenge {
+  width: fit-content;
+  padding: 4px 14px;
+  border: 1px;
+  border-radius: 6px;
+  &.new {
+    background-color: $dayGlowOrange-main;
+    color: $white;
+  }
+
+  &.premium {
+    background-color: $sunsetGlow-tints-200;
+    color: $sunsetGlow-shades-500;
+  }
+
+  &.task {
+    background-color: $timesSquareScreens-tints-200;
+    color: $timesSquareScreens-main;
+  }
+
+  &.free,
+  &.free-plus {
+    background-color: $saturatedSky-tints-200;
+    color: $saturatedSky-main;
+  }
+  & > .value {
+    @include typography_BVNPro-custom(600, 14px, 120%);
+    text-transform: capitalize;
+  }
+}
