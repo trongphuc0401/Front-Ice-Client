@@ -1,0 +1,36 @@
+@use '../../styles/scss/utils' as *;
+@use '../../styles/scss/flex-grid' as *;
+
+.profile-container {
+  & > h4 {
+    @include typography_BVNPro-desktop-h4;
+    margin-bottom: 32px;
+  }
+  & .banner-with-info {
+    margin-bottom: 64px;
+  }
+
+  .solution__list-section {
+    &:has(.empty) {
+    }
+
+    &:not(.empty) {
+      & > .content .solution__list {
+        @include grid(12, none, 24px);
+        margin-bottom: 62px;
+        & > div {
+          grid-column: span 3;
+        }
+      }
+    }
+  }
+
+  & > .company__following-section {
+    & > .content .list-company {
+      @include grid(12, none, 24px);
+      & .container-company-follow {
+        grid-column: span 3;
+      }
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "Layout": {
+    "Header": {
+      "SearchBar": {},
+      "UserProfile": {
+        "avatar": "avatar",
+        "userName": "username"
+      }
+    },
+    "Sidebar": {},
+    "Main": {},
+    "ToastMessage": {}
+  },
+  "ToastMessage": {
+    "Login": {
+      "error": "Login failed",
+      "pending": "Login in progress",
+      "success": "Log in successfully"
+    },
+    "Auth": {
+      "Register": {
+        "error": "Registration failed",
+        "pending": "Registration in progress",
+        "success": "Registered successfully"
+      },
+      "FrogotPassword": {
+        "error": "Gmail is incorrect"
+      },
+      "ForgotPassword": {
+        "pending": "Posted the test",
+        "success": "Checked gmail successfully"
+      },
+      "OTP": {
+        "error": "OTP authentication failed",
+        "pending": "Performing OTP authentication",
+        "success": "OTP authentication successful"
+      },
+      "ResetPassword": {
+        "error": "Renew password failed",
+        "pending": "Password change in progress",
+        "success": "Renew password successfully"
+      },
+      "Login": {
+        "success": "Log in successfully",
+        "error": "Login failed",
+        "pending": "Login in progress"
+      },
+      "Logout": {
+        "Success": "Successfully logged out of account",
+        "Error": "Logout of account failed",
+        "Pending": "Logging out of account in progress"
+      },
+      "ResendOtp": {
+        "Success": "Resend OTP confirmation code successfully",
+        "Error": "Resend OTP confirmation code failed",
+        "Pending": "Resending OTP confirmation code is in progress"
+      }
+    },
+    "Challenger": {
+      "profile": {
+        "error": "Account information authentication failed"
+      },
+      "Join": {
+        "Success": "Participate in the challenge successfully",
+        "Error": "Join the failure challenge"
+      },
+      "Download": {
+        "Assest": {
+          "Success": "Documented assets successfully",
+          "Error": "Document assets download failed"
+        },
+        "Figma": {
+          "Success": "Successfully documented Figma design",
+          "Error": "Figma design documentation failed"
+        }
+      }
+    },
+    "Challenge": {
+      "Download": {
+        "Figma": {
+          "Pending": "Figma design documentation in progress"
+        },
+        "Assets": {
+          "Pending": "Document assets download in progress"
+        }
+      }
+    },
+    "Solution": {
+      "Submit": {
+        "Success": "Post the successful solution",
+        "Error": "Post failed solutions",
+        "Pending": "Posting solution in progress"
+      },
+      "Like": {
+        "Success": "Love the successful solution",
+        "Error": "Love the failed solution"
+      },
+      "Dislike": {
+        "Success": "Doesn't like successful solutions",
+        "Error": "Don't like failed solutions"
+      },
+      "UnInteraction": {
+        "Dislike": {
+          "Error": "Cancel unfavorite failure"
+        },
+        "Like": {
+          "Error": "Cancel favorite failed"
+        }
+      }
+    },
+    "Task": {
+      "Join": {
+        "Success": "Join the mission successfully",
+        "Error": "Join failed mission",
+        "Peding": "Ongoing mission participation"
+      }
+    },
+    "Comment": {
+      "Remove": {
+        "Success": "Comment deleted successfully",
+        "Error": "Comment deletion failed"
+      }
+    }
+  },
+  "ToastMEssage": {
+    "Auth": {
+      "ResetPassword": {
+        "pending": "Password renewal in progress"
+      }
+    }
+  },
+  "testing": "min value {{min}}",
+  "Validation": {
+    "Field": {
+      "Password": {
+        "MaxLength": "Passwords have a maximum length of {{length}}",
+        "MinLength": "Password length is at least {{length}}",
+        "Confirm": "Confirmation password does not match",
+        "Require": "Password cannot be left blank"
+      },
+      "PasswordConfirm": {
+        "Match": "Confirmation password does not match"
+      },
+      "ConfirmPassword": {
+        "Require": "Confirmation password cannot be blank",
+        "MaxLength": "The maximum length of the authentication password is {{length}}",
+        "MinLength": "Confirmation password has a minimum length of {{length}}"
+      },
+      "FirstName": {
+        "Require": "First name cannot be left blank"
+      },
+      "LastName": {
+        "Require": "Last name cannot be left blank"
+      },
+      "Email": {
+        "Require": "Email cannot be left blank",
+        "Pattern": "Email is not in correct format"
+      },
+      "Nickname": {
+        "Require": "Nickname cannot be left blank"
+      },
+      "Phone": {
+        "Require": "Phone number cannot be left blank",
+        "Pattern": "Invalid phone number"
+      }
+    }
+  },
+  "Field": {
+    "NewPassword": "New password",
+    "ConfirmPassword": "Confirm password",
+    "Email": "E-mail",
+    "FirstName": "First Name",
+    "LastName": "Last name",
+    "Password": "Password",
+    "Nickname": "",
+    "Phone": "Phone number",
+    "PrideOf": "What are you most proud of, and what will you do differently next time?",
+    "ChallengeOvercome": "What challenges have you encountered, and how have you overcome them?",
+    "HelpWith": "What specific areas of your project would you like to help with?"
+  },
+  "Button": {
+    "ResetPassword": "Change password",
+    "ForgotPassword": "Forgot password",
+    "Login": "Log in",
+    "Register": "Register",
+    "VerifyOtp": "Verify OTP code",
+    "Authentication": {
+      "BackPrevious": "Go back"
+    },
+    "ViewMore": {
+      "Challenges": "See challenge",
+      "Default": "See more"
+    },
+    "LoginNow": "Sign in now",
+    "Submit": {
+      "Solution": "Post your solution"
+    },
+    "UnlockPremium": "Unlock Premium",
+    "Challenges": "Challenges",
+    "Solutions": "Solutions",
+    "BackToHomePage": "Return to home page",
+    "GoToTasks": "View tasks"
+  },
+  "Checkbox": {
+    "RememberAccount": "Remember account"
+  },
+  "Language": {
+    "Vietnamese": "Vietnamese",
+    "English": "English",
+    "Country": "Vietnam"
+  },
+  "ChangeLanguage": {
+    "success": "Changed language {{language}} successfully"
+  },
+  "Setting": "Setting",
+  "Profile": "Personal page",
+  "Logout": "Sign out",
+  "Point": "Score",
+  "Empty": {
+    "DontJoinedChallenge": "You haven't participated in any challenges yet",
+    "DontSubmittedChallenge": "You don't have any solutions yet",
+    "IncompleteChallenge": "You have no unfinished challenges",
+    "Solution": "You must take the challenge to see other people's armors",
+    "SolutionsOfChallenge": "There is no solution to this challenge yet",
+    "ChallengeSystem": "There are no challenges",
+    "SolutionTask": "You don't have a solution for the task yet",
+    "Comment": "No one has commented on this solution yet"
+  },
+  "Authentication": {
+    "Login": "You are not logged into your account yet"
+  },
+  "Section": {
+    "Overview": "Overview",
+    "IncompleteChallenge": "Challenge not completed",
+    "MySolution": "My solution",
+    "MissionOfTasker": "Recruiter's challenge",
+    "MissionOfSystem": "System challenge",
+    "MySolutionChallengesSystem": "Solutions to systemic challenges",
+    "MySolutionTask": "Solution to the task"
+  },
+  "ChallengeOverview": {
+    "Error": {
+      "EnoughPoint": "You do not have enough points to participate in this challenge",
+      "Authentication": "You must log in to participate in the challenge",
+      "ChallengeType": "This challenge is for premium accounts only"
+    }
+  },
+  "Placeholder": {
+    "Comment": "Please enter your comment text",
+    "Email": "Enter your email address",
+    "Password": "Enter your password",
+    "PasswordConfirmation": "Enter your confirmation password"
+  },
+  "Page": {
+    "Tasks": {
+      "Title": "List of employer challenges"
+    },
+    "Challenges": {
+      "Title": "List of system challenges"
+    },
+    "SubmitSolution": {
+      "Title": "Submit solution",
+      "Form": {
+        "Title": "Send challenge information"
+      }
+    },
+    "Home": {
+      "Title": "Home page"
+    },
+    "Solutions": {
+      "Title": "List of solutions"
+    },
+    "MySolution": {
+      "Title": "My solution list"
+    },
+    "Unauthorized": {
+      "ErrorText": "No authorization found",
+      "title": "This page is not publicly available",
+      "Description": "To be able to access you must log in first"
+    }
+  },
+  "Account": {
+    "Update": {
+      "Premium": {
+        "Success": "The account has been upgraded to Premium"
+      }
+    }
+  },
+  "ForgotPassword": "Forgot password",
+  "Label": {
+    "ExpiredTime": "Expires on"
+  },
+  "ReplyComment": "Reply to comments",
+  "Comment": {
+    "Success": "Comment successful",
+    "Error": "Reply to comment failed",
+    "Text": "Comment"
+  },
+  "Remove": {
+    "Comment": "Erase"
+  },
+  "Edit": {
+    "Comment": "Edit"
+  },
+  "CommentReply": {
+    "Success": "Reply to comment successfully"
+  },
+  "ViewMore": {
+    "Comments": "See more comment responses"
+  },
+  "ViewCv": "See CV",
+  "Join": "Join",
+  "Challenge": "Challenge",
+  "NonSubmitted": "Unfinished",
+  "Submitted": "Completed",
+  "Solutions": "My solutions",
+  "Register": "Register an account",
+  "EnterEmailRegister": "Enter the email you want to register for an account",
+  "PreviousPage": "Return to previous page",
+  "LoginDescription": "Enter email and password to log in",
+  "YouDontHaveAccount": "Don't have an account yet?",
+  "OR": "Or",
+  "RegisterPracing": "Buy",
+  "UploadCV": "Upload your CV",
+  "ViewDetails": {
+    "Text": "See details"
+  },
+  "ChallengeDetailsPage": "Challenge details page",
+  "ScoreText": "Point",
+  "PeopleParticipated": "Join",
+  "PeopleSubmit": "Complete",
+  "GoToChallengeDetails": "Coming to the challenge details",
+  "JoinChallenge": "Join the challenge",
+  "SubmitChallenge": "Submit solution",
+  "GoToMySolution": "Go to solution details",
+  "DownloadFilesChallenges": "Download documents",
+  "Information": "Information",
+  "FeedbackOfMentor": "Mentor Response",
+  "SolutionDetailsPage": "Solution details page",
+  "SubmittedAbout": "Submitted at",
+  "Link": "Prefer",
+  "dislike": "Dislike",
+  "comment": "Comment",
+  "ViewSourceCode": "View source code",
+  "ViewPreviewDemo": "See results",
+  "NonBio": "No biography yet",
+  "StatisticPage": "Statistics page",
+  "ViewSource": "View source code",
+  "LivePreview": "See results",
+  "AccountText": "Account",
+  "ChallengeSubmitted": "Complete",
+  "Solution": "Solution",
+  "Score": "Score",
+  "YouCompletedTask": "You have completed the mission",
+  "ViewDetailsTask": "View mission details",
+  "JoinTask": "Join the mission",
+  "SubmitTask": "Submit solution",
+  "ReportContent": "Content of complaint",
+  "DownloadBasedFiles": "Resources directory provided",
+  "DownloadDesignFile": "Design files",
+  "DownloadBasedFilesDescription": "Includes content, JPG images of design files, and basic style guides. \nThere's also a README to help you get started.",
+  "DownloadDesignFileDescription": "Includes content, image JPG file design, and path style facility. \nThere's also a README to help you get started.",
+  "DownloadStarter": "Load the provisioning directory",
+  "DownloadDesign": "Download design file",
+  "TaskDetailsPage": "Mission details page",
+  "EnterYourEmailToFindAccount": "Enter the email account you need to find",
+  "ReturnToPreviousPage": "Return to previous page",
+  "OTPCodeVerify": "Verify OTP code",
+  "SignUpAccount": "Register account information",
+  "EnterYourPersonalDataToCreateYourAccount": "Enter your account information",
+  "AlreadyHaveAnAccount": "Already have an account?",
+  "LoginText": "Log in",
+  "EnterYourNewPasswordToResetPasswordToAccount": "Enter a new password and reset the password for the account"
+}

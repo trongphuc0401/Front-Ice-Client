@@ -1,0 +1,27 @@
+@use '../../../../styles/scss/utils/mixin/typography' as *;
+@use '../../../../styles/scss/utils/variables/colors' as *;
+@use '../../../../styles/scss/flex-grid' as *;
+
+.container-action {
+  margin-block: 62px;
+  & > .list-action {
+    @include grid(12, none, 24px);
+
+    & > .view-source-code {
+      cursor: pointer;
+      width: 100%;
+      grid-column: span 5;
+      & > .button-container {
+        width: 100%;
+      }
+    }
+    & > .view-preview-demo {
+      cursor: pointer;
+      width: 100%;
+      grid-column: span 7;
+      & > .button-container {
+        width: 100%;
+      }
+    }
+  }
+}
